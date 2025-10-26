@@ -1,0 +1,47 @@
+{
+  "catalogo": {
+    "metadata": {
+      "version": "1.0",
+      "fecha": "26/10/2025 16:34:56",
+      "totalEstudiantes": 5
+    },
+    "estudiantes": [
+      {
+        "id": 1,
+        "nombre": "Juan",
+        "apellidos": "García López",
+        "edad": 20,
+        "notas": 8,50
+      },
+      {
+        "id": 2,
+        "nombre": "María",
+        "apellidos": "Rodríguez",
+        "edad": 19,
+        "notas": 9,20
+      },
+      {
+        "id": 3,
+        "nombre": "Pedro",
+        "apellidos": "Martínez",
+        "edad": 21,
+        "notas": 7,80
+      },
+      {
+        "id": 4,
+        "nombre": "Ana",
+        "apellidos": "López",
+        "edad": 20,
+        "notas": 8,90
+      },
+      {
+        "id": 5,
+        "nombre": "Carlos",
+        "apellidos": "Sánchez",
+        "edad": 22,
+        "notas": 6,50
+      }
+    ],
+    "resumen": {}
+  }
+}

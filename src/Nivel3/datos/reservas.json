@@ -1,0 +1,204 @@
+{
+  "hotel": {
+    "informacion": {
+      "nombre": "Hotel Paradise",
+      "fecha": "26/10/2025"
+    },
+    "clientes": {
+      "1": {
+        "nombre": "Juan García",
+        "email": "juan@email.com",
+        "telefono": "666111222"
+      },
+      "2": {
+        "nombre": "María López",
+        "email": "maria@email.com",
+        "telefono": "666222333"
+      },
+      "3": {
+        "nombre": "Pedro Martínez",
+        "email": "pedro@email.com",
+        "telefono": "666333444"
+      },
+      "4": {
+        "nombre": "Ana Sánchez",
+        "email": "ana@email.com",
+        "telefono": "666444555"
+      }
+    },
+    "habitaciones": {
+      "101": {
+        "tipo": "Doble",
+        "precioPorNoche": 90.00,
+        "disponible": false
+      },
+      "102": {
+        "tipo": "Individual",
+        "precioPorNoche": 50.00,
+        "disponible": true
+      },
+      "103": {
+        "tipo": "Individual",
+        "precioPorNoche": 50.00,
+        "disponible": false
+      },
+      "201": {
+        "tipo": "Suite",
+        "precioPorNoche": 200.00,
+        "disponible": false
+      },
+      "202": {
+        "tipo": "Doble",
+        "precioPorNoche": 90.00,
+        "disponible": true
+      },
+      "203": {
+        "tipo": "Individual",
+        "precioPorNoche": 50.00,
+        "disponible": true
+      },
+      "204": {
+        "tipo": "Doble",
+        "precioPorNoche": 90.00,
+        "disponible": false
+      },
+      "205": {
+        "tipo": "Suite",
+        "precioPorNoche": 200.00,
+        "disponible": false
+      }
+    },
+    "reservas": [
+      {
+        "id": 1,
+        "clienteId": 1,
+        "habitacionNumero": 101,
+        "fechaEntrada": "20/10/2025",
+        "fechaSalida": "23/10/2025",
+        "noches": 3,
+        "precioTotal": 270.00,
+        "estado": "Confirmada"
+      },
+      {
+        "id": 2,
+        "clienteId": 2,
+        "habitacionNumero": 205,
+        "fechaEntrada": "21/10/2025",
+        "fechaSalida": "25/10/2025",
+        "noches": 4,
+        "precioTotal": 800.00,
+        "estado": "Confirmada"
+      },
+      {
+        "id": 3,
+        "clienteId": 3,
+        "habitacionNumero": 103,
+        "fechaEntrada": "22/10/2025",
+        "fechaSalida": "24/10/2025",
+        "noches": 2,
+        "precioTotal": 100.00,
+        "estado": "Confirmada"
+      },
+      {
+        "id": 4,
+        "clienteId": 1,
+        "habitacionNumero": 204,
+        "fechaEntrada": "01/11/2025",
+        "fechaSalida": "05/11/2025",
+        "noches": 4,
+        "precioTotal": 360.00,
+        "estado": "Confirmada"
+      },
+      {
+        "id": 5,
+        "clienteId": 4,
+        "habitacionNumero": 201,
+        "fechaEntrada": "10/11/2025",
+        "fechaSalida": "14/11/2025",
+        "noches": 4,
+        "precioTotal": 800.00,
+        "estado": "Confirmada"
+      },
+      {
+        "id": 6,
+        "clienteId": 2,
+        "habitacionNumero": 103,
+        "fechaEntrada": "15/09/2025",
+        "fechaSalida": "17/09/2025",
+        "noches": 2,
+        "precioTotal": 100.00,
+        "estado": "Completada"
+      },
+      {
+        "id": 7,
+        "clienteId": 3,
+        "habitacionNumero": 102,
+        "fechaEntrada": "20/09/2025",
+        "fechaSalida": "22/09/2025",
+        "noches": 2,
+        "precioTotal": 100.00,
+        "estado": "Completada"
+      },
+      {
+        "id": 8,
+        "clienteId": 4,
+        "habitacionNumero": 204,
+        "fechaEntrada": "15/10/2025",
+        "fechaSalida": "18/10/2025",
+        "noches": 3,
+        "precioTotal": 270.00,
+        "estado": "Confirmada"
+      },
+      {
+        "id": 9,
+        "clienteId": 1,
+        "habitacionNumero": 201,
+        "fechaEntrada": "25/10/2025",
+        "fechaSalida": "28/10/2025",
+        "noches": 3,
+        "precioTotal": 600.00,
+        "estado": "Confirmada"
+      },
+      {
+        "id": 10,
+        "clienteId": 3,
+        "habitacionNumero": 101,
+        "fechaEntrada": "20/11/2025",
+        "fechaSalida": "22/11/2025",
+        "noches": 2,
+        "precioTotal": 180.00,
+        "estado": "Cancelada"
+      }
+    ],
+    "estadisticas": {
+      "porTipoHabitacion": {
+        "Suite": {
+          "totalReservas": 3,
+          "ingresos": 2200.00,
+          "porcentaje": 30.0
+        },
+        "Doble": {
+          "totalReservas": 4,
+          "ingresos": 1080.00,
+          "porcentaje": 40.0
+        },
+        "Individual": {
+          "totalReservas": 3,
+          "ingresos": 300.00,
+          "porcentaje": 30.0
+        }
+      },
+      "porEstado": {
+        "Confirmada": 7,
+        "Completada": 2,
+        "Cancelada": 1
+      },
+      "resumen": {
+        "totalReservas": 10,
+        "ingresosTotal": 3580.00,
+        "nochesReservadas": 29,
+        "ocupacionMedia": 58.0
+      }
+    }
+  }
+}

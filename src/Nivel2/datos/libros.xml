@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+  <informacion>
+    <nombre>Biblioteca Municipal</nombre>
+    <fecha>26/10/2025</fecha>
+    <totalLibros>7</totalLibros>
+  </informacion>
+
+  <categorias>
+    <categoria nombre="Ficción" totalLibros="3">
+      <libro isbn="978-84-123" disponible="true">
+        <titulo>El Quijote</titulo>
+        <autor>Miguel de Cervantes</autor>
+        <año>1605</año>
+        <paginas>863</paginas>
+        <prestamos>150</prestamos>
+      </libro>
+      <libro isbn="978-84-456" disponible="false">
+        <titulo>Cien años de soledad</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <año>1967</año>
+        <paginas>471</paginas>
+        <prestamos>98</prestamos>
+      </libro>
+      <libro isbn="978-84-789" disponible="true">
+        <titulo>1984</titulo>
+        <autor>George Orwell</autor>
+        <año>1949</año>
+        <paginas>328</paginas>
+        <prestamos>120</prestamos>
+      </libro>
+      <estadisticas>
+        <totalPrestamos>368</totalPrestamos>
+        <prestamosMedio>122,7</prestamosMedio>
+      </estadisticas>
+    </categoria>
+
+    <categoria nombre="Historia" totalLibros="2">
+      <libro isbn="978-86-333" disponible="false">
+        <titulo>Sapiens</titulo>
+        <autor>Yuval Noah Harari</autor>
+        <año>2011</año>
+        <paginas>498</paginas>
+        <prestamos>200</prestamos>
+      </libro>
+      <libro isbn="978-86-444" disponible="true">
+        <titulo>El arte de la guerra</titulo>
+        <autor>Sun Tzu</autor>
+        <año>500</año>
+        <paginas>273</paginas>
+        <prestamos>89</prestamos>
+      </libro>
+      <estadisticas>
+        <totalPrestamos>289</totalPrestamos>
+        <prestamosMedio>144,5</prestamosMedio>
+      </estadisticas>
+    </categoria>
+
+    <categoria nombre="Ciencia" totalLibros="2">
+      <libro isbn="978-85-111" disponible="true">
+        <titulo>Breve historia del tiempo</titulo>
+        <autor>Stephen Hawking</autor>
+        <año>1988</año>
+        <paginas>256</paginas>
+        <prestamos>75</prestamos>
+      </libro>
+      <libro isbn="978-85-222" disponible="true">
+        <titulo>El origen de las especies</titulo>
+        <autor>Charles Darwin</autor>
+        <año>1859</año>
+        <paginas>502</paginas>
+        <prestamos>45</prestamos>
+      </libro>
+      <estadisticas>
+        <totalPrestamos>120</totalPrestamos>
+        <prestamosMedio>60,0</prestamosMedio>
+      </estadisticas>
+    </categoria>
+
+  </categorias>
+
+  <resumenGlobal>
+    <totalCategorias>3</totalCategorias>
+    <totalLibros>7</totalLibros>
+    <librosDisponibles>5</librosDisponibles>
+    <librosPrestados>2</librosPrestados>
+  </resumenGlobal>
+</biblioteca>

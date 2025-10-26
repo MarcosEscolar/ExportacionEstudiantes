@@ -1,0 +1,14 @@
+# HOTEL - SISTEMA DE RESERVAS
+# Generado el: 26/10/2025 17:30:42
+
+ID;ClienteNombre;ClienteEmail;HabitacionNum;TipoHabitacion;FechaEntrada;FechaSalida;Noches;PrecioTotal;Estado
+1;Juan García;juan@email.com;101;Doble;20/10/2025;23/10/2025;3;270,00;Confirmada
+2;María López;maria@email.com;205;Suite;21/10/2025;25/10/2025;4;800,00;Confirmada
+3;Pedro Martínez;pedro@email.com;103;Individual;22/10/2025;24/10/2025;2;100,00;Confirmada
+4;Juan García;juan@email.com;204;Doble;01/11/2025;05/11/2025;4;360,00;Confirmada
+5;Ana Sánchez;ana@email.com;201;Suite;10/11/2025;14/11/2025;4;800,00;Confirmada
+6;María López;maria@email.com;103;Individual;15/09/2025;17/09/2025;2;100,00;Completada
+7;Pedro Martínez;pedro@email.com;102;Individual;20/09/2025;22/09/2025;2;100,00;Completada
+8;Ana Sánchez;ana@email.com;204;Doble;15/10/2025;18/10/2025;3;270,00;Confirmada
+9;Juan García;juan@email.com;201;Suite;25/10/2025;28/10/2025;3;600,00;Confirmada
+10;Pedro Martínez;pedro@email.com;101;Doble;20/11/2025;22/11/2025;2;180,00;Cancelada

@@ -1,0 +1,111 @@
+{
+  "biblioteca": {
+    "informacion": {
+      "nombre": "Biblioteca Municipal",
+      "fecha": "26/10/2025",
+      "totalLibros": 7
+    },
+    "categorias": {
+      "Ficción": {
+        "totalLibros": 3,
+        "libros": [
+          {
+            "isbn": "978-84-123",
+            "titulo": "El Quijote",
+            "autor": "Miguel de Cervantes",
+            "año": 1605,
+            "paginas": 863,
+            "disponible": true,
+            "prestamos": 150
+          },
+          {
+            "isbn": "978-84-456",
+            "titulo": "Cien años de soledad",
+            "autor": "Gabriel García Márquez",
+            "año": 1967,
+            "paginas": 471,
+            "disponible": false,
+            "prestamos": 98
+          },
+          {
+            "isbn": "978-84-789",
+            "titulo": "1984",
+            "autor": "George Orwell",
+            "año": 1949,
+            "paginas": 328,
+            "disponible": true,
+            "prestamos": 120
+          }
+        ],
+        "estadisticas": {
+          "totalPrestamos": 368,
+          "prestamosMedio": 122,7,
+          "libroMasPrestado": "El Quijote"
+        }
+      },
+      "Historia": {
+        "totalLibros": 2,
+        "libros": [
+          {
+            "isbn": "978-86-333",
+            "titulo": "Sapiens",
+            "autor": "Yuval Noah Harari",
+            "año": 2011,
+            "paginas": 498,
+            "disponible": false,
+            "prestamos": 200
+          },
+          {
+            "isbn": "978-86-444",
+            "titulo": "El arte de la guerra",
+            "autor": "Sun Tzu",
+            "año": 500,
+            "paginas": 273,
+            "disponible": true,
+            "prestamos": 89
+          }
+        ],
+        "estadisticas": {
+          "totalPrestamos": 289,
+          "prestamosMedio": 144,5,
+          "libroMasPrestado": "Sapiens"
+        }
+      },
+      "Ciencia": {
+        "totalLibros": 2,
+        "libros": [
+          {
+            "isbn": "978-85-111",
+            "titulo": "Breve historia del tiempo",
+            "autor": "Stephen Hawking",
+            "año": 1988,
+            "paginas": 256,
+            "disponible": true,
+            "prestamos": 75
+          },
+          {
+            "isbn": "978-85-222",
+            "titulo": "El origen de las especies",
+            "autor": "Charles Darwin",
+            "año": 1859,
+            "paginas": 502,
+            "disponible": true,
+            "prestamos": 45
+          }
+        ],
+        "estadisticas": {
+          "totalPrestamos": 120,
+          "prestamosMedio": 60,0,
+          "libroMasPrestado": "Breve historia del tiempo"
+        }
+      }
+    },
+    "resumenGlobal": {
+      "totalCategorias": 3,
+      "totalLibros": 7,
+      "librosDisponibles": 5,
+      "librosPrestados": 2,
+      "totalPrestamosHistorico": 777
+    }
+  }
+}
